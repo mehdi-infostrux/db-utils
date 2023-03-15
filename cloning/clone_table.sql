@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE MANAGEMENT.CLONING.CLONE_TEAM_TABLES(target_database_name VARCHAR(200), target_schema_name VARCHAR(200),  target_table_name VARCHAR(200),
+CREATE OR REPLACE PROCEDURE CLONE_TABLE(target_database_name VARCHAR(200), target_schema_name VARCHAR(200),  target_table_name VARCHAR(200),
  source_database_name VARCHAR(200), source_schema_name VARCHAR(200),  source_table_name VARCHAR(200)  )
 RETURNS NUMBER(38,0)
 LANGUAGE SQL
